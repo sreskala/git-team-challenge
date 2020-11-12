@@ -1,3 +1,11 @@
+.easter-egg-container {
+    display: intial;
+}
+
+.easter-egg-image-popup {
+    display: none;
+}
+
 .davediv{
 width: 33%;
 border-width: 1px;
@@ -36,17 +44,41 @@ padding: 5px;
     padding: 20px;
     margin: 2rem 1rem 3rem;
     position: relative;
-    height: 50px;
+    height: 60px;
+    perspective: 2000px;
 }
 
-.bashful__header__container > h1 {
+.bashful__header__container  h1 {
     font-family: 'Pacifico', cursive;
-    font-size: 50px;
+    font-size: 60px;
     position: absolute;
     margin-bottom: 2rem;
     left: 50%;
     transform: translateX(-50%);
 }
+
+.animation-inner-container {
+    position: relative;
+    margin-bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100px;
+    width: 800px;
+    top: 20px;
+    transform-style: preserve-3d;
+}
+
+.animation-outer-container {
+    position: relative;
+    margin-bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 150px;
+    width: 900px;
+    top: -30px;
+}
+
+
 
 .text-column {
     padding: 1rem;
