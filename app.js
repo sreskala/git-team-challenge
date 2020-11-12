@@ -21,9 +21,13 @@ container.addEventListener('mouseenter', e => {
 
     //popout
     title1.style.transform = 'translateZ(50px)';
+    title1.style.left = "0";
     title2.style.transform = 'translateZ(100px)';
+    title2.style.left = "0";
     title3.style.transform = 'translateZ(150px)';
+    title3.style.left = "0";
     title4.style.transform = 'translateZ(200px)';
+    title4.style.left = "0";
 });
 
 //animate out

@@ -1,5 +1,6 @@
 .easter-egg-container {
     display: intial;
+    background-color: #dbf6e9;
 }
 
 .easter-egg-image-popup {
@@ -49,12 +50,14 @@ padding: 5px;
 }
 
 .bashful__header__container  h1 {
+    top: 10px;
     font-family: 'Pacifico', cursive;
     font-size: 60px;
     position: absolute;
     margin-bottom: 2rem;
     left: 50%;
     transform: translateX(-50%);
+    transition: all 1s ease;
 }
 
 .animation-inner-container {
