@@ -3,6 +3,11 @@
     background-color: #dbf6e9;
 }
 
+.easter-egg-popup-text {
+    display: none;
+    font-size: 200px;
+}
+
 .easter-egg-image-popup {
     display: none;
 }
