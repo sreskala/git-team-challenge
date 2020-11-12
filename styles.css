@@ -1,0 +1,16 @@
+.davediv{
+width: 33%;
+border-width: 1px;
+box-shadow: darkblue;
+padding: 5px;
+}
+
+.davename{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.davebio{
+    margin-left: auto;
+    margin-right: auto;
+}
