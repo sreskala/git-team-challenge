@@ -9,11 +9,129 @@
             integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
             crossorigin="anonymous">
         <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+            rel="stylesheet">
+
+        <!--
+    $$$$$$$$\                                      $$$$$$$\                      $$\        $$$$$$\            $$\ 
+    \__$$  __|                                     $$  __$$\                     $$ |      $$  __$$\           $$ |
+       $$ | $$$$$$\   $$$$$$\  $$$$$$\$$$$\        $$ |  $$ | $$$$$$\   $$$$$$$\ $$$$$$$\  $$ /  \__|$$\   $$\ $$ |
+       $$ |$$  __$$\  \____$$\ $$  _$$  _$$\       $$$$$$$\ | \____$$\ $$  _____|$$  __$$\ $$$$\     $$ |  $$ |$$ |
+       $$ |$$$$$$$$ | $$$$$$$ |$$ / $$ / $$ |      $$  __$$\  $$$$$$$ |\$$$$$$\  $$ |  $$ |$$  _|    $$ |  $$ |$$ |
+       $$ |$$   ____|$$  __$$ |$$ | $$ | $$ |      $$ |  $$ |$$  __$$ | \____$$\ $$ |  $$ |$$ |      $$ |  $$ |$$ |
+       $$ |\$$$$$$$\ \$$$$$$$ |$$ | $$ | $$ |      $$$$$$$  |\$$$$$$$ |$$$$$$$  |$$ |  $$ |$$ |      \$$$$$$  |$$ |
+       \__| \_______| \_______|\__| \__| \__|      \_______/  \_______|\_______/ \__|  \__|\__|       \______/ \__|
+        -->
 
         <title>Team Bashful</title>
     </head>
     <body>
-        <div>Sam</div>
+
+        <div class="team__bashful__title">
+            <div class="bashful__header__container">
+                <h1 class="bashful__title-1"
+                style="color:blue;"
+                >
+                    Team Bashful
+                </h1>
+                <h1 class="bashful__title-2"
+                style="color: red;"
+                >
+                    Team Bashful
+                </h1>
+                <h1 class="bashful__title-2"
+                style="color: green;"
+                >
+                    Team Bashful
+                </h1>
+            </div>
+            
+        </div>
+
+        <div class="sams-div">
+            <div class="container">
+
+                <div class="sam__profile">
+
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col text-column">
+                                <h1 class="hobbies__header">
+                                    Hobbies:
+                                </h1>
+                                <ul class="hobbies__list">
+                                    <li class="hobbies__list__item">
+                                        Building cakes
+                                    </li>
+                                    <li class="hobbies__list__item">
+                                        Eating tons of wings
+                                    </li>
+                                    <li class="hobbies__list__item">
+                                        Magnets
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <img src="https://i.imgur.com/Souj3jc.jpg" class="sam-profile-pic"/>
+                            </div>
+                            <div class="col text-column">
+                                <h1 class="about__header">About Sam</h1>
+                                <p class="about__text">
+                                    Sam enjoys romantic picnics while watching the sunset... Whoops wrong site. Sam
+                                    loves traditional wings (boneless wings are not wings -- they're chicken
+                                    nuggets) and binge-watching It's Always Sunny in Philadelphia.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="button__container">
+                            <button
+                                type="button"
+                                class="btn btn-outline-dark age-button"
+                                onclick="ageFunction()">Click to age!</button>
+                            <button
+                                type="button"
+                                class="btn btn-outline-dark unage-button"
+                                onclick="unageFunction()">Click to unage!</button>
+                        </div>
+
+                        <script>
+                            function ageFunction() {
+                                document
+                                    .querySelector(".sam-profile-pic")
+                                    .src = "https://i.imgur.com/zzV8Y3v.jpg?1";
+                                document
+                                    .querySelector(".age-button")
+                                    .style
+                                    .display = "none";
+                                document
+                                    .querySelector(".unage-button")
+                                    .style
+                                    .display = "inline-block";
+                            }
+
+                            function unageFunction() {
+                                document
+                                    .querySelector(".sam-profile-pic")
+                                    .src = "https://i.imgur.com/Souj3jc.jpg";
+                                document
+                                    .querySelector(".unage-button")
+                                    .style
+                                    .display = "none";
+                                document
+                                    .querySelector(".age-button")
+                                    .style
+                                    .display = "inline-block";
+                            }
+                        </script>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
         <div>Dave</div>
         <div class="karlContainer text-white">
         <div class="container d-flex align-items-center flex-column">
@@ -59,3 +177,4 @@
 
     </body>
 </html>
+<!-- <img src="https://i.imgur.com/zzV8Y3v.jpg?1" /> -->
